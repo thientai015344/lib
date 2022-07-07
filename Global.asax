@@ -16,7 +16,7 @@
         routes.MapPageRoute("dang-nhap", "st/dang-nhap", "~/Student/Login.aspx");
         routes.MapPageRoute("dang-ky", "st/dang-ky", "~/Student/Register.aspx");
         routes.MapPageRoute("danh-sach-tai", "st/danh-sach-tai", "~/Student/listdown.aspx");
-        routes.MapPageRoute("quen-mat-ma", "quen-mat-ma", "~/ChangePassword.aspx");
+        routes.MapPageRoute("quen-mat-ma", "quen-mat-ma", "~/RequestChangePass.aspx");
         routes.MapPageRoute("ResetPassword", "ResetPassword", "~/ResetPassword.aspx");
         routes.MapPageRoute("Xac-nhan-email", "Xac-nhan-email", "~/ActiveEmail.aspx");
         routes.MapPageRoute("", "", "~/home.aspx");
