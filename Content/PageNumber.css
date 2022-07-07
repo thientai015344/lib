@@ -1,0 +1,40 @@
+﻿.Item {
+    height: 150px;
+    width: 180px;
+    margin: 5px;
+}
+
+    .Item, .Item td, .Item td {
+        border: 1px solid #ccc;
+    }
+
+        .Item .header {
+            background-color: #F7F7F7 !important;
+            color: Black;
+            font-size: 10pt;
+            line-height: 200%;
+        }
+
+.page_enabled, .page_disabled {
+    display: inline-block;
+    height: 25px;
+    min-width: 25px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+
+.page_enabled {
+    background-color: #eee;
+    color: #000;
+}
+
+.page_disabled {
+    background-color: #6C6C6C;
+    color: #fff !important;
+}
+.mtpage
+{
+    margin-top: 30px
+}

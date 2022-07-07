@@ -1,0 +1,9 @@
+diff a/HomeLib/SearchContent.aspx.cs b/HomeLib/SearchContent.aspx.cs	(rejected hunks)
+@@ -38,6 +38,7 @@
+ 
+                     // search(SearchKeyword, getSearchField());
+                     Results = sf.SearchField(SearchKeyword, getPage(), IndexPath, ddlSearchFieldsFile.SelectedValue, SearchKeyword);
++                    CurrentPage = sf.CurrentPage;// cập nhật số trang hiện tại                    
+                     DataBind();
+                 }
+             }

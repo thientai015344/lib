@@ -1,0 +1,203 @@
+/* Base */
+
+.sticky-wrapper {
+  position: relative;
+    z-index: 100;
+    width: 100%;
+}
+
+    .sticky-wrapper .site-navbar {
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+    }
+
+
+    .sticky-wrapper .shrink {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+@media (max-width: 991.98px) {
+    .sticky-wrapper .shrink {
+        padding-top: 30px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+ .owl-prev, .slide-one-item .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.4); }
+  .slide-one-item .owl-nav .owl-prev:hover, .slide-one-item .owl-nav .owl-next:hover {
+    color: #fff; }
+
+.slide-one-item .owl-nav .owl-prev {
+  left: 20px; }
+
+.slide-one-item .owl-nav .owl-next {
+  right: 20px; }
+
+.intro-engage > div {
+  pad .owl-nav .owl-next {
+  right: 20px; }
+
+.intro-engage > div {
+  padding: 50px;
+  position: relative; }
+  .intro-engage > div h2 {
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem; }
+  .intro-engage > div p {
+    color: rgba(255, 255, 255, 0.5); }
+  .intro-engage > div:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5); }
+  .intro-engage > div:nth-of-type(1) {
+    background-color: #4e4e4e; }
+  .intro-engage > div:nth-of-type(2) {
+    background-color: #fd5f00; }
+  .intro-engage > div:nth-of-type(3) {
+    background-color: #a23131; }
+  .intro-engage > div *:last-child {
+    margin-bottom: 0; }
+
+.block-img-video-1-wrap .block-img-video-1 {
+  position: relative;
+  margin-top: -10rem; }
+
+.block-img-video-1 > a {
+  display: block;
+  position: relative;
+  cursor: pointer; }
+  .block-img-video-1 > a .icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff; }
+    .block-img-video-1 > a .icon > span {
+      position: absolute;
+      top: 50%;
+      font-size: .8rem;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #000; }
+
+.block-counter-1 {
+  text-align: center; }
+  .block-counter-1 .number, .block-counter-1 .caption {
+    display: block;
+    line-height: 1; }
+  .block-counter-1 .number {
+    color: #fd5f00;
+    font-size: 4rem;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "Anton", sans-serif; }
+    .block-counter-1 .number:after {
+      position: absolute;
+      content: "";
+      width: 50px;
+      height: 3px;
+      left: 50%;
+      bottom: 0;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.3); }
+  .block-counter-1.block-counter-1-sm {
+    text-align: left; }
+    .block-counter-1.block-counter-1-sm .number:after {
+      left: 0;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0); }
+
+.block-social-1 > a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative; }
+  .block-social-1 > a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.block-testimony-1 {
+  padding: 20px; }
+  .block-testimony-1 blockquote {
+    background: #fff;
+    padding: 30px;
+    font-style: italic;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Georgia', Times, serif; }
+  .block-testimony-1 figure {
+    position: relative;
+    padding-top: 20px; }
+    .block-testimony-1 figure:before {
+      position: absolute;
+      content: "";
+      width: 50px;
+      left: 50%;
+      display: none;
+      top: 0;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background: #fd5f00;
+      height: 2px; }
+    .block-testimony-1 figure img {
+      max-width: 60px; }
+  .block-testimony-1 h3 {
+    font-size: 18px; }
+
+.block-team-member-1 {
+  padding: 30px;
+  border: 1px solid #e9ecef; }
+  .block-team-member-1 figure img {
+    width: 130px; }
+
+.section-title {
+  font-size: 4rem !important; }
+  @media (max-width: 991.98px) {
+    .section-title {
+      font-size: 2rem !important; } }
+
+.sidebar-box {
+  margin-bottom: 30px;
+  padding: 25px;
+  font-size: 15px;
+  width: 100%;
+  float: left;
+  background: #fff; }
+  .sidebar-box *:last-child {
+    margin-bottom: 0; }
+  .sidebar-box h3 {
+    font-size: 18px;
+    margin-bottom: 15px; }
+
