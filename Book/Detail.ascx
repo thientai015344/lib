@@ -285,18 +285,7 @@
                    
                 </div>
                 <div class="row">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3957443453467964"
-                        crossorigin="anonymous"></script>
-                    <!-- Khánh My -->
-                    <ins class="adsbygoogle"
-                        style="display: block"
-                        data-ad-client="ca-pub-3957443453467964"
-                        data-ad-slot="3093371858"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    
                 </div>
             </div>
         </div>
@@ -307,9 +296,7 @@
                 
             </div>             
         </div>   
-        <div class="row">
-
-        </div>
+       
     </div>
 </div>
 
