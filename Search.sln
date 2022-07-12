@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32421.90
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Search", ".", "{FD07ECFF-73F6-4814-B142-8DF36AADE0D1}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LIBHUTECH", ".", "{FD07ECFF-73F6-4814-B142-8DF36AADE0D1}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		ProjectReferences = ""
